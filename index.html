@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment</title>
+</head>
+<body>
+    <h1>CSS Position Properties </h1>
+
+    <div>
+    <h3>
+        The <u><i>position</i></u> property in CSS determines how an element is positioned in a document. There are five values for the `position` property:
+    </h3>
+    </div>
+
+    <div>
+        <h3>Static</h3>
+ <ul>
+    <li>
+        <strong>Default value:</strong> Element is positioned according to the normal document flow</li>
+    <li>
+<strong>Top, right, bottom, and left</strong> properties have no effect
+<br>
+<br>
+<i>position: static;</i>
+    </li>
+</ul>
+    </div>
+
+<h3> Relative </h3>
+    <div>
+        <ul>
+            <li>Element is positioned relative to its normal position
+            </li>
+        </ul>
+<ul>
+    <li>Top, right, bottom, and left properties specify the offset from its normal position</li>
+</ul>
+    <ul>
+    <li>Other elements are not affected by the offset
+</li>
+</ul>
+<br>
+<i>position: relative;
+<br>
+top: 20px;
+<br>
+left: 30px;</i>
+    </div>
+
+<h3>Absolute</h3>
+<ul>
+    <li>Element is removed from the normal document flow
+Positioned relative to its nearest positioned ancestor (instead of its parent)</li>
+</ul>
+<ul>
+    <li>Top, right, bottom, and left properties specify the offset from its ancestor</li>
+</ul>
+
+
+<i>position: absolute;
+<br>
+top: 0;
+<br>
+right: 0;</i>
+
+
+<h3>Fixed</h3>
+<ul>
+    <li>Element is removed from the normal document flow
+Positioned relative to the viewport (browser window)</li>
+</ul>
+<ul>
+    <li>Top, right, bottom, and left properties specify the offset from the viewport
+Element remains</li>
+</ul> fixed even when the page is scrolled
+
+
+<i>position: fixed;
+<br>
+top: 0;
+<br>
+left: 0;</i>
+
+
+<h3>Sticky</h3>
+<ul>
+    <li>Element is positioned based on the user's scroll position</li>
+</ul>
+<ul>
+    <li>Element is positioned relative to its nearest ancestor with a scrolling</li>
+</ul> box
+<ul>
+    <li>Top, right, bottom, and left properties specify the offset from its ancestor</li>
+</ul>
+
+
+<i>position: sticky;
+<br>
+top: 0;</i>
+
+
+<h2>CSS Float Properties</h2>
+
+<h3>The `float` property in CSS specifies whether an element should float to the left or right of its parent element.</h3>
+
+<ul>
+    <li>`left`: Element floats to the left of its parent</li>
+</ul>
+<ul>
+    <li>`right`: Element floats to the right of its parent</li>
+</ul>
+<ul>
+    <li>`none`: Default value, element does not float</li>
+</ul>
+
+<i>float: left;
+<br>
+float: right;
+<br>
+float: none;
+<br>
+clear: left;
+<br>
+clear: right;
+<br>
+clear: both;
+</i>
+
+<h3>Common use cases for float include:</h3>
+
+<ul>
+    <li>Wrapping text around images</li>
+</ul>
+<ul>
+    <li>Creating multi-column layouts</li>
+</ul>
+<ul>
+    <li>Positioning elements outside of the normal document flow</li>
+</ul>
+
+<p>However, modern CSS layout techniques like Flexbox and Grid have largely replaced the need for float-based layouts.</p>
+<footer>&copy; heisbayour, Ismail Abdulrasheed</footer>
+</body>
+</html>
